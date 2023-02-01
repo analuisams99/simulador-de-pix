@@ -1,5 +1,6 @@
 package com.trybe.simuladordepix;
 
+/**Classe ServidorFake. */
 public class ServidorFake implements Servidor {
 
   @Override

@@ -1,5 +1,6 @@
 package com.trybe.simuladordepix;
 
+/**Classe Mensagens. */
 public class Mensagens {
 
   public static final String SUCESSO =
