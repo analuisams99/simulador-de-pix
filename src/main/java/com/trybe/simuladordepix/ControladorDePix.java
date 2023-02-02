@@ -26,16 +26,6 @@ public class ControladorDePix {
       processadorDePix.executarPix(valor, chave);
       return Mensagens.SUCESSO;
 
-    } catch (ErroValorNaoPositivo e) {
-      return e.getMessage();
-    } catch (ErroChaveEmBranco e) {
-      return e.getMessage();
-    } catch (ErroSaldoInsuficiente e) {
-      return e.getMessage();
-    } catch (ErroChaveNaoEncontrada e) {
-      return e.getMessage();
-    } catch (ErroInterno e) {
-      return e.getMessage();
     } catch (ErroDePix e) {
       return e.getMessage();
     } catch (IOException e) {

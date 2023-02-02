@@ -22,9 +22,7 @@ public class ProcessadorDePix {
    * @throws IOException Caso aconteça algum problema relacionado à comunicação
    *                     entre o aplicativo e o servidor na nuvem.
    */
-  public void executarPix(int valor, String chave) throws ErroDePix, IOException,
-        ErroValorNaoPositivo, ErroChaveEmBranco, ErroSaldoInsuficiente, 
-        ErroChaveNaoEncontrada, ErroInterno {
+  public void executarPix(int valor, String chave) throws ErroDePix, IOException {
     try {
       if (valor <= 0) {
         throw new ErroValorNaoPositivo();
